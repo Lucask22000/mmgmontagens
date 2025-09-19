@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
   {
     "filename": "image1.jpg",
@@ -40,47 +39,4 @@
     "title": "Montagem de Armário",
     "description": "Montagem de armário embutido com portas de correr"
   }
-=======
-[
-  {
-    "filename": "image1.jpg",
-    "title": "Montagem de Escritório",
-    "description": "Montagem completa de móveis para escritório corporativo"
-  },
-  {
-    "filename": "image2.jpg",
-    "title": "Instalação de TV",
-    "description": "Instalação de TV 55'' com organização de cabos"
-  },
-  {
-    "filename": "image3.jpg",
-    "title": "Montagem de Armário",
-    "description": "Montagem de armário embutido com portas de correr"
-  },
-  {
-    "filename": "image4.jpg",
-    "title": "Montagem de Armário",
-    "description": "Montagem de armário embutido com portas de correr"
-  },
-  {
-    "filename": "image5.jpg",
-    "title": "Montagem de Armário",
-    "description": "Montagem de armário embutido com portas de correr"
-  },
-  {
-    "filename": "image6.jpg",
-    "title": "Montagem de Armário",
-    "description": "Montagem de armário embutido com portas de correr"
-  },
-  {
-    "filename": "image7.jpg",
-    "title": "Montagem de Armário",
-    "description": "Montagem de armário embutido com portas de correr"
-  },
-  {
-    "filename": "image8.jpg",
-    "title": "Montagem de Armário",
-    "description": "Montagem de armário embutido com portas de correr"
-  }
->>>>>>> b66b1abaac4f400f3e1f38a174871349c50a5a37
 ]
