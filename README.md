@@ -1,110 +1,76 @@
-README - MMG Instalações Website
-Descrição do Projeto
-Este é o site oficial da MMG Instalações, uma empresa especializada em serviços de montagem e instalação. O site apresenta informações sobre a empresa, serviços oferecidos, galeria de trabalhos realizados e um formulário de contato para solicitação de orçamentos.
+# MMG Instalações - Website
 
-Estrutura do Projeto
-text
-project-root/
+> Site oficial da MMG Instalações, empresa especializada em montagem e instalação de móveis, eletrônicos e muito mais.
+
+## 📋 Descrição
+Este projeto apresenta a empresa, seus serviços, galeria de trabalhos e um formulário de contato para orçamentos.
+
+## 🚀 Funcionalidades
+- **Design Responsivo**: Visual adaptado para qualquer dispositivo
+- **Navegação Suave**: Menu com rolagem suave entre seções
+- **Galeria Interativa**: Abas para imagens, vídeos e projetos
+- **Lightbox**: Visualização ampliada de imagens
+- **Formulário de Contato**: Integrado ao EmailJS
+- **Links para Redes Sociais**: Instagram, Facebook e WhatsApp
+
+## 🗂️ Estrutura do Projeto
+```
+mmgmontagens/
 │
-├── index.html          # Arquivo principal HTML
-├── style.css           # Folha de estilos CSS
-├── scripts.js          # Arquivo JavaScript com funcionalidades
-├── README.md           # Este arquivo
-└── assets/             # Pasta para recursos (imagens, vídeos, etc.)
-    └── images/
-        └── celo.png    # Imagem do proprietário
-Funcionalidades
-Design Responsivo: Adaptado para diferentes tamanhos de tela
+├── docs/                # Pasta publicada no GitHub Pages
+│   ├── index.html       # Página principal
+│   ├── style.css        # Estilos
+│   ├── scripts.js       # Funcionalidades JS
+│   ├── banner.png       # Banner do site
+│   ├── celo.png         # Imagem do proprietário
+│   └── galeria/         # Imagens, vídeos e projetos
+│
+├── README.md            # Este arquivo
+└── ...
+```
 
-Navegação Suave: Links de menu com rolagem suave até as seções
+## 🛠️ Tecnologias Utilizadas
+- HTML5
+- CSS3 (Flexbox, Grid)
+- JavaScript (Vanilla)
+- Font Awesome (ícones)
+- EmailJS (envio de formulários)
 
-Galeria Interativa: Com abas para imagens, vídeos e projetos
+## ⚙️ Como Executar Localmente
+1. Clone ou baixe o repositório
+2. Certifique-se de que todos os arquivos estão na mesma pasta
+3. Abra `index.html` em seu navegador
 
-Lightbox: Para visualização ampliada de imagens
+## ✉️ Configuração do Formulário (EmailJS)
+1. Crie uma conta em [EmailJS](https://www.emailjs.com/)
+2. Crie um serviço e um template
+3. No código JS, substitua:
+   ```js
+   emailjs.init("SEU_USER_ID_PUBLICO");
+   emailjs.send('SEU_SERVICE_ID', 'SEU_TEMPLATE_ID', templateParams)
+   ```
+4. Atualize o campo `to_email` para o e-mail desejado
 
-Formulário de Contato: Integrado com EmailJS para envio de mensagens
+## 🎨 Personalização
+- Edite `style.css` para mudar cores, fontes e layout
+- Atualize informações de contato e serviços no HTML
+- Adicione suas imagens e vídeos na galeria
 
-Links para Redes Sociais: Instagram, Facebook e WhatsApp
+## 📑 Estrutura das Seções
+- **Cabeçalho**: Logo e menu
+- **Hero**: Banner principal
+- **Sobre**: Informações da empresa
+- **Serviços**: Cards dos serviços
+- **Galeria**: Abas para imagens, vídeos e projetos
+- **Contato**: Formulário e informações
+- **Rodapé**: Copyright
 
-Tecnologias Utilizadas
-HTML5
+## 🖥️ Compatibilidade
+Compatível com os principais navegadores modernos:
+- Chrome, Firefox, Safari, Edge
 
-CSS3 (com Flexbox e Grid)
-
-JavaScript (Vanilla)
-
-Font Awesome (ícones)
-
-EmailJS (para envio de formulários)
-
-Como Configurar e Executar
-Clone ou faça o download dos arquivos do projeto
-
-Certifique-se de que todos os arquivos (HTML, CSS, JS) estão na mesma pasta
-
-Adicione suas imagens na pasta assets/images/ (substitua o arquivo celo.png)
-
-Para o formulário de contato funcionar:
-
-Crie uma conta no EmailJS
-
-Substitua SEU_SERVICE_ID e SEU_TEMPLATE_ID no script do formulário
-
-Atualize o to_email para o endereço de email desejado
-
-Abra o arquivo index.html em um navegador web
-
-Personalização
-Cores e Estilo
-Edite o arquivo style.css para alterar cores, fontes e outros aspectos visuais.
-
-Conteúdo
-Atualize as informações de contato na seção apropriada
-
-Modifique os serviços oferecidos conforme necessário
-
-Adicione suas próprias imagens e vídeos na galeria
-
-Integração com EmailJS
-Para configurar corretamente o envio de emails:
-
-Registre-se no EmailJS e crie um serviço de email
-
-Crie um template de email
-
-Substitua as credenciais no código JavaScript:
-
-javascript
-emailjs.init("SEU_USER_ID_PUBLICO");
-emailjs.send('SEU_SERVICE_ID', 'SEU_TEMPLATE_ID', templateParams)
-Estrutura das Seções
-Cabeçalho: Logo e menu de navegação
-
-Hero: Banner principal com call-to-action
-
-Sobre: Informações sobre a empresa e o proprietário
-
-Serviços: Cards com os serviços oferecidos
-
-Galeria: Trabalhos realizados com abas para diferentes mídias
-
-Contato: Formulário e informações de contato
-
-Rodapé: Informações de copyright
-
-Compatibilidade
-O site é compatível com os principais navegadores modernos:
-
-Chrome (versões recentes)
-
-Firefox (versões recentes)
-
-Safari (versões recentes)
-
-Edge (versões recentes)
-
-Autor
+## 👤 Autor
 Desenvolvido para MMG Instalações.
 
-Licença
-Este projeto é de uso exclusivo da MMG Instalações.
+## ⚠️ Licença
+Projeto de uso exclusivo da MMG Instalações.
