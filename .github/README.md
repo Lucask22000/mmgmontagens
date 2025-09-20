@@ -70,7 +70,7 @@ Compatível com os principais navegadores modernos:
 - Chrome, Firefox, Safari, Edge
 
 ## 👤 Autor
-Desenvolvido para MMG Instalações.
+Desenvolvido por Lucas Ramalho para MMG Instalações.
 
 ## ⚠️ Licença
 Projeto de uso exclusivo da MMG Instalações.
